@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-# Kurisu by 916253 & ihaveamac
+# Zoidbot by T3CHNOLOG1C
 # license: Apache License 2.0
-# https://github.com/916253/Kurisu
+# https://github.com/T3CHNOLOG1C/Zoidbot
 
 description = """
-Kurisu, the bot for the 3DS Hacking Discord!
+Zoidbot, a general-purpose Discord bot!
 """
 
 # import dependencies
@@ -141,7 +141,7 @@ async def on_ready():
         bot.nomemes_role = discord.utils.get(server.roles, name="No-Memes")
         bot.nohelp_role = discord.utils.get(server.roles, name="No-Help")
         bot.noembed_role = discord.utils.get(server.roles, name="No-Embed")
-        bot.elsewhere_role = discord.utils.get(server.roles, name="#elsewhere")
+        bot.shitposts_role = discord.utils.get(server.roles, name="#shitposts")
         bot.everyone_role = server.default_role
 
         bot.staff_ranks = {
@@ -203,7 +203,6 @@ async def on_ready():
 addons = [
     'addons.assistance',
     'addons.blah',
-    #'addons.bf',
     'addons.err',
     'addons.events',
     'addons.extras',
