@@ -206,7 +206,6 @@ addons = [
     'addons.err',
     'addons.events',
     'addons.extras',
-    'addons.friendcode',
     'addons.kickban',
     'addons.load',
     'addons.lockdown',
