@@ -219,7 +219,6 @@ addons = [
     'addons.mod_watch',
     'addons.mod',
     'addons.rules',
-    'addons.xkcdparse',
 ]
 
 failed_addons = []
