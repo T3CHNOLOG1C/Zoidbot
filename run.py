@@ -141,7 +141,7 @@ async def on_ready():
         bot.nomemes_role = discord.utils.get(server.roles, name="No-Memes")
         bot.nohelp_role = discord.utils.get(server.roles, name="No-Help")
         bot.noembed_role = discord.utils.get(server.roles, name="No-Embed")
-        bot.shitposts_role = discord.utils.get(server.roles, name="#shitposts")
+        bot.elsewhere_role = discord.utils.get(server.roles, name="#elsewhere")
         bot.everyone_role = server.default_role
 
         bot.staff_ranks = {
