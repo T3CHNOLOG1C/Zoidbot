@@ -18,13 +18,13 @@ class Extras:
     prune_key = "nokey"
 
     @commands.command()
-    async def kurisu(self):
-        """About Kurisu"""
-        embed = discord.Embed(title="Kurisu", color=discord.Color.green())
-        embed.set_author(name="916253 and ihaveahax")
+    async def zoidbot(self):
+        """About Zoidbot"""
+        embed = discord.Embed(title="Zoidbot", color=discord.Color.red())
+        embed.set_author(name="T3CHNOLOG1C")
         embed.set_thumbnail(url="http://i.imgur.com/hjVY4Et.jpg")
-        embed.url = "https://github.com/916253/Kurisu"
-        embed.description = "Kurisu, the Nintendo Homebrew Discord bot!"
+        embed.url = "https://github.com/T3CHNOLOG1C/Zoidbot"
+        embed.description = "Zoidbot, T3CHNOLOG1C's Discord bot!"
         await self.bot.say("", embed=embed)
 
     @commands.command()
